@@ -377,13 +377,6 @@ assets/            logo, social preview, demo (make_demo.py rebuilds demo.svg)
 Contributions are welcome: NSE holiday calendar, more setups, better charge presets for other brokers,
 Hindi explanations. Please keep the safety rules: no order placement, no tips.
 
-## Credits
-
-The Time Machine method and the scan → plan → check → paper flow were inspired by the US-market
-[Day Trader skill](https://github.com/Jakeschincariol/day-trader-skill) by Jake Schincariol (MIT).
-Dalal Street Skill is a fresh implementation for Indian markets: IST sessions, NSE/BSE symbols, Indian
-charges and broker-free paper trading.
-
 ## ⚠️ Disclaimer
 
 This software is for **education and paper-trading practice only**. The authors and contributors are

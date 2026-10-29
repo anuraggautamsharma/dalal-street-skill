@@ -7,7 +7,7 @@
                      --entry-time 10:15 --setup orb --stop-rule or-mid
   timemachine.py run --replays 20000 --seed 7 --until 15:20
 
-How it works (adapted from the Day Trader skill's Time Machine for NSE hours):
+How it works (NSE hours, 9:15 to 15:30 IST):
  1. The pool: full past sessions (at least 70 of the 75 five-minute candles,
     9:15 to 15:25 India time; Yahoo skips a few), from the last 60 days, before the plan's day. Every
     candle becomes four ratios to the candle before it: open, high, low and

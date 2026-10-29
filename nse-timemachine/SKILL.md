@@ -14,8 +14,7 @@ argument-hint: "[run] or --symbol X --entry E --stop S --target T --entry-time H
 
 # nse-timemachine
 
-Adapted from the Day Trader skill's Time Machine (github.com/Jakeschincariol/day-trader-skill, MIT) for
-NSE hours: 9:15 to 15:30 India time, 75 five-minute candles a day.
+Built for NSE hours: 9:15 to 15:30 India time, 75 five-minute candles a day.
 
 `${CLAUDE_SKILL_DIR}` is this skill's folder. Run from the user's project folder.
 
