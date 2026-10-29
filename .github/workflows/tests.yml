@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Offline tests (charges, levels, Time Machine logic)
+        run: python tests/test_india_trader.py
+      - name: Every script starts and shows its help
+        run: |
+          for f in nse-*/*.py; do
+            case "$f" in nse-lib/*) continue;; esac
+            python "$f" --help > /dev/null || { echo "FAILED: $f"; exit 1; }
+          done

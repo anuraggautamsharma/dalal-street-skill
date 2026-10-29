@@ -10,6 +10,7 @@
   "kind": "intraday",
   "exchange": "NSE",
   "paper": true,
+  "language": "auto",
   "charges": {
     "brokerage_pct": 0.001,
     "brokerage_max": 20.0,

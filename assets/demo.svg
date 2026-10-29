@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" width="920" height="560" role="img" aria-label="Demo: Claude scans the Nifty 50, plans a TITAN trade with Indian charges, runs the Time Machine, and explains Jio's chart in Hinglish">
+<style>.t{font:15px 'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;white-space:pre}.b{font-weight:700}.lbl{font:600 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif}@keyframes p0{0.000%{opacity:0} 2.500%{opacity:1} 22.500%{opacity:1} 25.000%{opacity:0} 100.000%{opacity:0}}@keyframes o0{0.000%{opacity:0} 4.583%{opacity:0} 7.083%{opacity:1} 22.500%{opacity:1} 25.000%{opacity:0} 100.000%{opacity:0}}@keyframes l0{0.000%{opacity:0} 2.500%{opacity:1} 22.500%{opacity:1} 25.000%{opacity:0} 100.000%{opacity:0}}.p0{opacity:0;animation:p0 24s linear infinite}.o0{opacity:0;animation:o0 24s linear infinite}.l0{opacity:0;animation:l0 24s linear infinite}@keyframes p1{0.000%{opacity:0} 25.000%{opacity:0} 27.500%{opacity:1} 47.500%{opacity:1} 50.000%{opacity:0} 100.000%{opacity:0}}@keyframes o1{0.000%{opacity:0} 29.583%{opacity:0} 32.083%{opacity:1} 47.500%{opacity:1} 50.000%{opacity:0} 100.000%{opacity:0}}@keyframes l1{0.000%{opacity:0} 25.000%{opacity:0} 27.500%{opacity:1} 47.500%{opacity:1} 50.000%{opacity:0} 100.000%{opacity:0}}.p1{opacity:0;animation:p1 24s linear infinite}.o1{opacity:0;animation:o1 24s linear infinite}.l1{opacity:0;animation:l1 24s linear infinite}@keyframes p2{0.000%{opacity:0} 50.000%{opacity:0} 52.500%{opacity:1} 72.500%{opacity:1} 75.000%{opacity:0} 100.000%{opacity:0}}@keyframes o2{0.000%{opacity:0} 54.583%{opacity:0} 57.083%{opacity:1} 72.500%{opacity:1} 75.000%{opacity:0} 100.000%{opacity:0}}@keyframes l2{0.000%{opacity:0} 50.000%{opacity:0} 52.500%{opacity:1} 72.500%{opacity:1} 75.000%{opacity:0} 100.000%{opacity:0}}.p2{opacity:0;animation:p2 24s linear infinite}.o2{opacity:0;animation:o2 24s linear infinite}.l2{opacity:0;animation:l2 24s linear infinite}@keyframes p3{0.000%{opacity:0} 75.000%{opacity:0} 77.500%{opacity:1} 97.500%{opacity:1} 100.000%{opacity:0} 100.000%{opacity:0}}@keyframes o3{0.000%{opacity:0} 79.583%{opacity:0} 82.083%{opacity:1} 97.500%{opacity:1} 100.000%{opacity:0} 100.000%{opacity:0}}@keyframes l3{0.000%{opacity:0} 75.000%{opacity:0} 77.500%{opacity:1} 97.500%{opacity:1} 100.000%{opacity:0} 100.000%{opacity:0}}.p3{opacity:0;animation:p3 24s linear infinite}.o3{opacity:0;animation:o3 24s linear infinite}.l3{opacity:0;animation:l3 24s linear infinite}</style>
+<rect width="920" height="560" rx="14" fill="#0D1117"/>
+<rect width="920" height="44" rx="14" fill="#161B22"/>
+<rect y="30" width="920" height="14" fill="#161B22"/>
+<circle cx="24" cy="22" r="6" fill="#FF5F57"/><circle cx="44" cy="22" r="6" fill="#FEBC2E"/><circle cx="64" cy="22" r="6" fill="#28C840"/>
+<text class="lbl" x="460" y="27" text-anchor="middle" fill="#8B949E">Claude Code · dalal-street-skill · NSE &amp; BSE</text>
+<rect x="0" y="44" width="920" height="3" fill="#FF9933"/><rect x="306" y="44" width="306" height="3" fill="#F4F6FA"/><rect x="613" y="44" width="307" height="3" fill="#22B04B"/>
+<g class="p0">
+<text class="t" x="28" y="96" fill="#8B949E">&gt; <tspan fill="#FFFFFF">Scan the Nifty 50 for opening-range breakouts</tspan></text>
+</g>
+<g class="o0">
+<text class="t" x="28" y="136" fill="#D97757">⏺ nse-scanner · 50 stocks · box 9:15 to 9:30 · candles up to 10:15</text>
+<text class="t" x="28" y="160" fill="#E6EDF3">  26 broke out UP · 11 broke DOWN · 13 still inside the box</text>
+<text class="t" x="28" y="184" fill="#E6EDF3"></text>
+<text class="t" x="28" y="208" fill="#8B949E">  stock        time    box top     close    vol   now</text>
+<text class="t" x="28" y="232" fill="#3FB950">  TITAN        09:35   4381.10   4390.30   2.7x   holding 4401.50</text>
+<text class="t" x="28" y="256" fill="#3FB950">  ADANIENT     09:35   2505.20   2505.70   1.8x   holding 2544.00</text>
+<text class="t" x="28" y="280" fill="#FF9F45">  EICHERMOT    09:55   7290.50   7294.00   1.5x   fell back 7262.50</text>
+<text class="t" x="28" y="304" fill="#E6EDF3"></text>
+<text class="t" x="28" y="328" fill="#8B949E">  A scan finds candidates, not trades. Next: read the chart, then plan.</text>
+</g>
+<g class="p1">
+<text class="t" x="28" y="96" fill="#8B949E">&gt; <tspan fill="#FFFFFF">Plan TITAN: stop at the box middle, target 2R</tspan></text>
+</g>
+<g class="o1">
+<text class="t" x="28" y="136" fill="#D97757">⏺ nse-plan · TITAN · intraday · paper · NSE</text>
+<text class="t" x="28" y="160" fill="#E6EDF3">  Buy 22 shares at ₹4,390.30 = ₹96,586.60   (1% risk rule)</text>
+<text class="t" x="28" y="184" fill="#E6EDF3">  Stop-loss ₹4,361.85 · Target ₹4,447.20 · Reward:risk 2.00 : 1</text>
+<text class="t" x="28" y="208" fill="#F85149">  If the stop hits:    -₹706.96   (incl. ₹81.06 STT, brokerage, GST...)</text>
+<text class="t" x="28" y="232" fill="#3FB950">  If the target hits:  +₹1,170.21 (incl. ₹81.59 charges)</text>
+<text class="t" x="28" y="256" fill="#E6EDF3"></text>
+<text class="t" x="28" y="280" fill="#3FB950">  PASS  Loss at the stop is within your 1% limit (₹1,000)</text>
+<text class="t" x="28" y="304" fill="#3FB950">  PASS  Reward:risk 2.00:1 · PASS  Inside the entry window 09:30-14:30</text>
+<text class="t b" x="28" y="328" fill="#FFFFFF">  VERDICT: PASS. The plan follows your rules.</text>
+</g>
+<g class="p2">
+<text class="t" x="28" y="96" fill="#8B949E">&gt; <tspan fill="#FFFFFF">Run the time machine</tspan></text>
+</g>
+<g class="o2">
+<text class="t" x="28" y="136" fill="#D97757">⏺ nse-timemachine · 10,000 replays · 59 past sessions · seed 19</text>
+<text class="t" x="28" y="160" fill="#3FB950">  target first   11.5 %</text>
+<rect x="278" y="149" width="41.4" height="12" rx="3" fill="#3FB950" opacity="0.85"/>
+<text class="t" x="28" y="184" fill="#F85149">  stop first     50.0 %</text>
+<rect x="278" y="173" width="180.0" height="12" rx="3" fill="#F85149" opacity="0.85"/>
+<text class="t" x="28" y="208" fill="#8B949E">  neither        38.6 %</text>
+<rect x="278" y="197" width="139.0" height="12" rx="3" fill="#8B949E" opacity="0.85"/>
+<text class="t" x="430" y="208" fill="#8B949E">still open at 15:20</text>
+<text class="t" x="28" y="232" fill="#E6EDF3">  History: the rule fired 35 times: 9 target, 18 stop, 8 neither</text>
+<text class="t" x="28" y="256" fill="#E6EDF3"></text>
+<text class="t b" x="28" y="280" fill="#FF9F45">  Leans toward the stop: the target came first 18.7% of the time;</text>
+<text class="t b" x="28" y="304" fill="#FF9F45">  a 2R target needs 33.3% to break even.</text>
+<text class="t" x="28" y="328" fill="#8B949E">  A simulation from 60 days of candles, not a prediction.</text>
+</g>
+<g class="p3">
+<text class="t" x="28" y="96" fill="#8B949E">&gt; <tspan fill="#FFFFFF">Jio ka chart samjhao</tspan></text>
+</g>
+<g class="o3">
+<text class="t" x="28" y="136" fill="#D97757">⏺ nse-chart · JPL (Jio Platforms) · 29 Oct 2026</text>
+<text class="t" x="28" y="160" fill="#E6EDF3">  Jio ₹1,421.60 par band hua, kal ke close ₹1,417.50 se +0.29%.</text>
+<text class="t" x="28" y="184" fill="#E6EDF3">  Subah gap-up khula (₹1,444), phir opening box ke neeche aa gaya.</text>
+<text class="t" x="28" y="208" fill="#E6EDF3">  Price VWAP (₹1,436.65) ke neeche hai, yaani aaj sellers control mein the.</text>
+<text class="t" x="28" y="232" fill="#E6EDF3"></text>
+<text class="t" x="28" y="256" fill="#3FB950">  Sabse paas ka floor  ₹1,418.97  (4 baar touch)</text>
+<text class="t" x="28" y="280" fill="#F85149">  Sabse paas ki ceiling ₹1,424.42 (6 baar touch)</text>
+<text class="t" x="28" y="304" fill="#FF9F45">  Yaad rakho: floor ek wada nahi hai, woh toot bhi sakta hai.</text>
+<text class="t" x="28" y="328" fill="#8B949E">  Sirf seekhne ke liye. SEBI-registered advice nahi.</text>
+</g>
+<line x1="20" y1="502" x2="900" y2="502" stroke="#21262D"/>
+<g><rect x="28" y="516" width="74" height="26" rx="13" fill="#21262D"/><text class="lbl" x="40" y="534" fill="#8B949E">1 · Scan</text><g class="l0"><rect x="28" y="516" width="74" height="26" rx="13" fill="#D97757"/><text class="lbl" x="40" y="534" fill="#fff">1 · Scan</text></g></g>
+<g><rect x="112" y="516" width="74" height="26" rx="13" fill="#21262D"/><text class="lbl" x="124" y="534" fill="#8B949E">2 · Plan</text><g class="l1"><rect x="112" y="516" width="74" height="26" rx="13" fill="#D97757"/><text class="lbl" x="124" y="534" fill="#fff">2 · Plan</text></g></g>
+<g><rect x="196" y="516" width="74" height="26" rx="13" fill="#21262D"/><text class="lbl" x="208" y="534" fill="#8B949E">3 · Odds</text><g class="l2"><rect x="196" y="516" width="74" height="26" rx="13" fill="#D97757"/><text class="lbl" x="208" y="534" fill="#fff">3 · Odds</text></g></g>
+<g><rect x="280" y="516" width="82" height="26" rx="13" fill="#21262D"/><text class="lbl" x="292" y="534" fill="#8B949E">4 · Hindi</text><g class="l3"><rect x="280" y="516" width="82" height="26" rx="13" fill="#D97757"/><text class="lbl" x="292" y="534" fill="#fff">4 · Hindi</text></g></g>
+<text class="lbl" x="896" y="534" text-anchor="end" fill="#6E7681">Real NSE data · 29 Oct 2026 · paper trading only</text>
+</svg>

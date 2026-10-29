@@ -11,7 +11,10 @@
 ![Works on NSE](https://img.shields.io/badge/works%20on-NSE-1f6feb)
 ![Works on BSE](https://img.shields.io/badge/works%20on-BSE-d97706)
 ![Paper trading](https://img.shields.io/badge/mode-paper%20trading-16a34a)
-![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-3776ab)
+[![tests](https://github.com/anuraggautamsharma/dalal-street-skill/actions/workflows/tests.yml/badge.svg)](https://github.com/anuraggautamsharma/dalal-street-skill/actions/workflows/tests.yml)
+[![release](https://img.shields.io/github/v/release/anuraggautamsharma/dalal-street-skill?color=d97757)](https://github.com/anuraggautamsharma/dalal-street-skill/releases)
+![हिंदी · Hinglish · English](https://img.shields.io/badge/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80-Hinglish%20%C2%B7%20English-ff9933)
+![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776ab)
 ![No API key](https://img.shields.io/badge/API%20key-not%20needed-6b7280)
 ![License MIT](https://img.shields.io/badge/license-MIT-black)
 
@@ -22,6 +25,12 @@
 > Research Analyst, not a stockbroker, and is **not affiliated with SEBI, RBI, NSE, BSE** or any broker.
 > Nothing here is a tip, a recommendation or financial advice. It **never places real orders**.
 > Read the full [DISCLAIMER](DISCLAIMER.md) before you use it.
+
+<p align="center">
+  <img src="assets/demo.svg" alt="Demo: Claude scans the Nifty 50, plans a TITAN trade with Indian charges, runs the Time Machine, and explains Jio's chart in Hinglish" width="100%">
+</p>
+
+<p align="center"><b><a href="docs/HINDI-GUIDE.md">हिंदी में पढ़ें</a></b> · <a href="docs/BEGINNERS-GUIDE.md">Beginner's Guide</a> · <a href="#install">Install</a> · <a href="DISCLAIMER.md">Disclaimer</a></p>
 
 ---
 
@@ -38,6 +47,7 @@ with **paper (fake) money** against **real market candles**, so you can learn wi
 - ✅ Works on **NSE** (default) and **BSE** stocks, plus the Nifty 50, Bank Nifty and Sensex indices
 - ✅ Free public data: no signup, no API key, no paid feed
 - ✅ Plain standard-library Python: nothing to `pip install`
+- ✅ Speaks **Hindi, Hinglish and English**: ask "Jio ka chart samjhao" and get the answer in Hinglish
 - ✅ Your broker stays yours: Groww, Zerodha, Upstox, Angel One... you place real orders yourself, by hand
 - ❌ No buy/sell tips, no auto-trading, no F&O, no margin, no short selling
 
@@ -57,6 +67,21 @@ You don't need to remember the commands. Just talk to Claude:
 > *"Read Reliance's chart." · "Which Nifty stocks broke out this morning?" · "Plan a trade on Titan with
 > a stop at the opening-range middle and a 2:1 target." · "What are the odds?" · "Paper trade it." ·
 > "Did my paper trade hit the stop?"*
+
+## 🗣️ Hindi, Hinglish or English
+
+Talk the way you talk. Claude replies in your language, keeping the prices, symbols and PASS / BLOCK
+exactly as the tools print them.
+
+```text
+"Reliance ka chart samjhao."                      → Hinglish
+"Aaj Nifty 50 mein kaun se stocks breakout hue?"   → Hinglish
+"मुझे TITAN का ट्रेड प्लान बनाकर समझाओ।"            → हिंदी
+"Read Reliance's chart."                          → English
+```
+
+To always use one language, set `"language": "hi"`, `"hinglish"` or `"en"` in `trader-data/config.json`.
+Full Hindi guide with a glossary: **[docs/HINDI-GUIDE.md](docs/HINDI-GUIDE.md)**.
 
 ## How one trade flows
 
@@ -183,7 +208,7 @@ Fewer than 20 trades: too few to judge a method yet. Keep logging.
 
 ## Install
 
-You need [Claude Code](https://claude.com/claude-code) (terminal, desktop app or IDE) and Python 3.8+
+You need [Claude Code](https://claude.com/claude-code) (terminal, desktop app or IDE) and Python 3.9+
 (already on macOS and most Linux; on Windows install it from python.org).
 
 **Option 1: as a plugin (easiest)**
@@ -248,6 +273,7 @@ The planner checks every trade against `trader-data/config.json` (copy
 | `flat_by` | 15:20 | Intraday trades are closed before the 3:30 PM close |
 | `kind` | intraday | `intraday` or `delivery` (changes STT, stamp duty, DP charges) |
 | `exchange` | NSE | `NSE` or `BSE` |
+| `language` | auto | `auto` (match you), `hi`, `hinglish` or `en` |
 
 Any **BLOCK** means "don't take this trade", not even on paper.
 
@@ -324,6 +350,9 @@ lets you set your broker's charges.
 **Does it work for F&O?** No. SEBI's own studies found that about 9 in 10 individual F&O traders lost money.
 Learn the cash market first.
 
+**Does it speak Hindi?** Yes. Ask in Hindi or Hinglish and Claude answers the same way. See the
+[Hindi guide](docs/HINDI-GUIDE.md).
+
 **Is it free?** Yes, MIT-licensed. You need a Claude plan that includes Claude Code.
 
 ## For developers
@@ -340,8 +369,9 @@ nse-news/          SKILL.md + news.py
 nse-plan/          SKILL.md + plan.py
 nse-timemachine/   SKILL.md + timemachine.py
 nse-paper/         SKILL.md + paper.py
-tests/             offline unittest suite
-docs/              beginner's guide
+tests/             offline unittest suite (runs on every push via GitHub Actions)
+docs/              beginner's guide, Hindi guide
+assets/            logo, social preview, demo (make_demo.py rebuilds demo.svg)
 ```
 
 Contributions are welcome: NSE holiday calendar, more setups, better charge presets for other brokers,

@@ -2,7 +2,7 @@
 
 NSE/BSE prices from Yahoo Finance's free chart endpoint, India time, NSE
 stock lists, the Groww charge sheet, and the trader-data folder where every
-skill reads and writes. Standard library only (Python 3.8+).
+skill reads and writes. Standard library only (Python 3.9+).
 """
 import datetime
 import json
@@ -56,6 +56,7 @@ DEFAULT_CONFIG = {
     "kind": "intraday",            # intraday or delivery
     "exchange": "NSE",
     "paper": True,
+    "language": "auto",            # auto (match the user), hi, hinglish or en
 }
 
 
