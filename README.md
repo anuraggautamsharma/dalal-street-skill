@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🇮🇳 Dalal Street Skill
+<img src="assets/logo.svg" alt="Dalal Street Skill logo: three rising candlesticks in saffron, white and green" width="140" height="140">
+
+# Dalal Street Skill
 
 ### Learn the Indian stock market with Claude, one trade at a time, with fake money first.
 

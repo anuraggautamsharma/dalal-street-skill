@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dalal Street Skill banner</title>
+<style>
+  html, body { margin: 0; width: 1280px; height: 640px; overflow: hidden; }
+  body {
+    background: radial-gradient(1200px 700px at 85% 10%, #1B3D6E 0%, #0B1F3A 55%, #06142A 100%);
+    font-family: -apple-system, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+    color: #fff; position: relative;
+  }
+  .stripe { position: absolute; left: 0; right: 0; height: 10px; }
+  .stripe.top { top: 0; background: linear-gradient(90deg, #FF9933 0 33.3%, #F4F6FA 33.3% 66.6%, #22B04B 66.6%); }
+  .grid { position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,.045) 2px, transparent 2px),
+                      linear-gradient(90deg, rgba(255,255,255,.045) 2px, transparent 2px);
+    background-size: 80px 80px; }
+  .wrap { position: absolute; inset: 0; display: flex; align-items: center; padding: 0 84px; gap: 64px; }
+  img { width: 330px; height: 330px; flex: none; filter: drop-shadow(0 24px 40px rgba(0,0,0,.45)); }
+  h1 { font-size: 86px; line-height: 1; margin: 0 0 18px; letter-spacing: -2px; font-weight: 800; }
+  .hi { font-family: "Kohinoor Devanagari", "Devanagari Sangam MN", "Noto Sans Devanagari", sans-serif;
+        font-size: 40px; color: #FF9F45; margin: 0 0 14px; font-weight: 600; }
+  .sub { font-size: 31px; color: #C9D6EA; margin: 0 0 34px; line-height: 1.3; }
+  .sub b { color: #fff; }
+  .pills { display: flex; gap: 14px; flex-wrap: wrap; }
+  .pill { font-size: 23px; font-weight: 700; padding: 10px 20px; border-radius: 999px; border: 2px solid rgba(255,255,255,.18);
+          background: rgba(255,255,255,.06); }
+  .pill.nse { color: #7FB2FF; } .pill.bse { color: #FFB86B; } .pill.paper { color: #5EE38A; }
+  .foot { position: absolute; bottom: 26px; left: 84px; right: 84px; display: flex; justify-content: space-between;
+          font-size: 19px; color: #8FA3C2; }
+</style>
+</head>
+<body>
+  <div class="stripe top"></div>
+  <div class="grid"></div>
+  <div class="wrap">
+    <img src="logo.svg" alt="">
+    <div>
+      <h1>Dalal Street Skill</h1>
+      <p class="hi">सीखो पहले, कमाओ बाद में</p>
+      <p class="sub">Learn &amp; paper-trade <b>Indian stocks</b> with Claude.<br><span style="white-space:nowrap">Scan · plan · test · practise, in ₹ and IST.</span></p>
+      <div class="pills">
+        <span class="pill nse">NSE</span>
+        <span class="pill bse">BSE</span>
+        <span class="pill paper">Paper trading</span>
+        <span class="pill">Free &amp; open source</span>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <span>github.com/anuraggautamsharma/dalal-street-skill</span>
+    <span>Education only · Not SEBI-registered advice</span>
+  </div>
+</body>
+</html>
