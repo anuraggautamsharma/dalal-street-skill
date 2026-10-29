@@ -1,0 +1,14 @@
+{
+  "name": "dalal-street-skill",
+  "description": "Learn and paper-trade Indian stocks (NSE & BSE) with Claude: chart reader, scanner, news, trade planner with Indian broker charges, a 10,000-replay Time Machine, and a fake-money paper trader. Education only. Not SEBI-registered advice.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anurag Gautam",
+    "url": "https://github.com/anuraggautamsharma"
+  },
+  "homepage": "https://github.com/anuraggautamsharma/dalal-street-skill",
+  "repository": "https://github.com/anuraggautamsharma/dalal-street-skill",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-skills", "nse", "bse", "indian-stock-market", "nifty", "paper-trading", "intraday", "stock-market-education", "groww"],
+  "skills": "./"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dalal-street-skill",
+  "description": "Claude skills to learn and paper-trade Indian stocks on NSE and BSE",
+  "owner": {
+    "name": "Anurag Gautam",
+    "url": "https://github.com/anuraggautamsharma"
+  },
+  "plugins": [
+    {
+      "name": "dalal-street-skill",
+      "description": "Six Claude skills for NSE & BSE: a chart reader, a market scanner, a news check, a trade planner with risk rules and Indian broker charges, a Time Machine that replays 10,000 sessions, and a paper trader. Education and practice only; never places real orders.",
+      "source": "./",
+      "category": "education",
+      "homepage": "https://github.com/anuraggautamsharma/dalal-street-skill"
+    }
+  ]
+}
